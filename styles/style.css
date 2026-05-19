@@ -17,15 +17,17 @@ body {
 .box {
     display: flex;
     flex-direction: column;
+    min-height: 250px;
     border-radius: 8px;
     padding: 20px;
+    box-shadow: 10px 10px 5px black;
 }
 
 .sistema-a {
     width: fit-content;
     min-width: 400px;
     gap: 20px;
-    background-color: #f0f0f0;
+    background-color: #f0f0f0;;
 }
 
 .sistema-b {
@@ -43,6 +45,10 @@ button {
     color: white;
     cursor: pointer;
     font-size: 15px;
+}
+
+button:hover {
+    background-color: darkblue;
 }
 
 input {
