@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 700px;
-    background-color: #ffffff;
+    background-color: rgb(206, 206, 206);
     gap: 40px;
 }
 
@@ -18,23 +18,23 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 250px;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 20px;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 4px 8px 5px black;
 }
 
 .sistema-a {
     width: fit-content;
     min-width: 400px;
     gap: 20px;
-    background-color: #f0f0f0;;
+    background-color: white;;
 }
 
 .sistema-b {
     width: fit-content;
     min-width: 400px;
     gap: 20px;
-    background-color: #e0e0e0;
+    background-color: white;
 }
 
 button {
@@ -55,6 +55,7 @@ input {
     padding: 10px;
     border: 1px;
     border-radius: 8px;
+    background-color: rgb(222, 222, 222);
 }
 
 #logWebhook {
